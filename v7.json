@@ -41,7 +41,7 @@
 
 "fast_download_link":"https://www.bing.com",
 "banner_network_choice":"admob", 
-"interstisial_network_choice":"yandex", 
+"interstisial_network_choice":"admob", 
 "reward_network_choice":"admob",
 "native_network_choice":"admob"
   
