@@ -35,6 +35,7 @@
 "yandex_inter":"R-M-DEMO-interstitial",
 "yandex_native":"demo-native-app-yandex",
 "yandex_reward":"demo-rewarded-yandex",
+"yandex_appopen":"demo-appopenad-yandex",
 
 "detail_first_button":"first button",
 "detail_second_button":"12MB",
