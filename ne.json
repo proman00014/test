@@ -72,6 +72,14 @@
     {"title":"Mod Pack 8",
       "desc":"Melon Character PlayGround mod 8",
       "photo":"https://iili.io/H4qqZH7.jpg"}
-  ]
+  ],
+    "more_apps_info":[
+  {"name":"title1","package_name":"com.test.test","icon":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/480px-Instagram-Icon.png"},
+  {"name":"title2","package_name":"com.test.test","icon":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/480px-Instagram-Icon.png"},
+  {"name":"title3","package_name":"com.test.test","icon":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/480px-Instagram-Icon.png"},
+  {"name":"title4","package_name":"com.test.test","icon":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/480px-Instagram-Icon.png"},
+  {"name":"title5","package_name":"com.test.test","icon":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/480px-Instagram-Icon.png"}
+   ]
+ 
 
 }
